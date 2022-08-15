@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://docs.microsoft.com/en-us/certifications/exams/az-900">
-    <img src="https://www.cice.es/certificacion/az-900-microsoft-certified-azure-fundamentals/" alt="Logo" width="307" height="193">
+    <img src="https://cice.es/wp-content/uploads/2021/02/AZ-900-Microsoft-Certified-Azure-Fundamentals-300x300.png" alt="Logo" width="300" height="300">
   </a>
   <h1 align="center">Notas de Certificación Exam AZ-900: Microsoft Azure Fundamentals</h1>
 </p>
