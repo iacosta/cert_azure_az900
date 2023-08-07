@@ -1211,6 +1211,7 @@ Los casos de uso comunes para Azure Policy incluyen la implementación de la gob
 [Contratos de nivel de servicio - Página principal | Microsoft Azure](https://azure.microsoft.com/es-mx/support/legal/sla/)
 
 </details>
+
 ## Bonus
 
 <details><summary> AZ-900 Fundamentals
