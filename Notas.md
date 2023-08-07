@@ -451,6 +451,7 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 [https://docs.google.com/document/d/1nT6lvqlRPhlPCy1a-Xknp-aPwBjm5gKHqk5QW2CLj6s/edit](https://docs.google.com/document/d/1nT6lvqlRPhlPCy1a-Xknp-aPwBjm5gKHqk5QW2CLj6s/edit)
 
 </details>
+
 ## Servicios de Azure
 
 <details><summary> 11. Análisis y bases de datos
