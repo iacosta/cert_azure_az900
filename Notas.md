@@ -1,4 +1,4 @@
-# Introducción a la Nube con Azure
+## Introducción a la Nube con Azure
 
 <details><summary> 1. Aprender sobre la nube
 </summary>
@@ -159,11 +159,10 @@ Pago por servicios usados:
 - Los datos se protegen con copias de seguridad, replicación de datos y distribución geográfica
 </details>
 
-- 3- Modelos de servicio: IaaS, PaaS, SaaS y serverless
+<details><summary> 3. Modelos de servicio: IaaS, PaaS, SaaS y serverless
+</summary>
 
----
-
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled.png)
+![Images/Untitled.png](Images/Untitled.png)
 
 ### On-Premise (Local)
 
@@ -245,9 +244,10 @@ El proveedor administra el 100% del entorno y los usuarios solo utilizan la apli
 - No están diseñada para procesos extensos.
 - Detalles de desempeño.
 - Retos de testing y debugging.
-- 4- Tipos de nube: pública, privada e híbrida
+</details>
 
----
+<details><summary> 4. Tipos de nube: pública, privada e híbrida
+</summary>
 
 ### Nube Pública
 
@@ -264,20 +264,17 @@ El proveedor administra el 100% del entorno y los usuarios solo utilizan la apli
 
 - Combinación de on-premise, nube pública y privada.
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%201.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%201.png)
+![Images/Untitled%201.png](Images/Untitled%201.png)
+</details>
 
----
+## Componentes de Azure
 
-
-# Componentes de Azure
-
-- 5- ¿Qué es Azure?
-
----
+<details><summary> 5. ¿Qué es Azure?
+</summary>
 
 Es un proveedor de servicios en la nube, cuenta con mas de 100 servicios distintos para ser accedidos a través de internet. Cubre prácticamente cualquier necesidad para la nube o de computo.
 
-![Untitled](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%202.png)
+![Untitled](Images/Untitled%202.png)
 
 ### Ventajas de Azure
 
@@ -299,11 +296,12 @@ Es un proveedor de servicios en la nube, cuenta con mas de 100 servicios distint
 
 - Azure Portal - [https://portal.azure.com/](https://portal.azure.com/)
 - Azure MarketPlace
-- 6- Cuentas de Azure
+</details>
 
----
+<details><summary> 6. Cuentas de Azure
+</summary>
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%203.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%203.png)
+![Images/Untitled%203.png](Images/Untitled%203.png)
 
 **Recursos:** Instancias de los servicios disponibles como máquinas virtuales, discos duros y bases de datos.
 
@@ -317,10 +315,10 @@ Creación de la Cuenta
 
 [Soluciones de Azure | Microsoft Azure](https://azure.microsoft.com/es-es/solutions/)
 
-- 7- Suscripciones y grupos de administración
+</details>
 
----
-
+<details><summary> 7. Suscripciones y grupos de administración
+</summary>
 Se necesita de una suscripción de Azure para utilizar sus servicios:
 
 - Desarrollador: pagas por los servicios a medida que los utilices.
@@ -340,11 +338,11 @@ Se necesita de una suscripción de Azure para utilizar sus servicios:
 - **Facturación:** para facilitar el seguimiento de costos según entornos como producción, desarrollo o pruebas.
 - **Límites por suscripción:** Pueden haber algunas limitaciones de hardware por suscripción, entonces es necesario crear nuevas.
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%204.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%204.png)
+![Images/Untitled%204.png](Images/Untitled%204.png)
 
 ### Grupos de Administración
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%205.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%205.png)
+![Images/Untitled%205.png](Images/Untitled%205.png)
 
 **Consideraciones:**
 
@@ -353,9 +351,10 @@ Se necesita de una suscripción de Azure para utilizar sus servicios:
 - Cada grupo de administración y suscripción solo puede admitir un elemento primario.
 - Cada grupo de administración puede tener muchos elementos secundarios.
 - Todas las suscripciones y grupos de administración están dentro de una única jerarquía en cada directorio.
-- 8- Recursos y grupo de recursos
+</details>
 
----
+<details><summary> 8. Recursos y grupo de recursos
+</summary>
 
 **Recurso:** elemento administrable en Azure.
 
@@ -379,7 +378,7 @@ Utilizan permisos de control basado en roles (**RBAC - Roles Based Access Contro
 
 **Azure Resource Manager**
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%206.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%206.png)
+![Images/Untitled%206.png](Images/Untitled%206.png)
 
 - Plantillas en JSON.
 - Administrar recursos por grupo.
@@ -387,9 +386,10 @@ Utilizan permisos de control basado en roles (**RBAC - Roles Based Access Contro
 - RBAC.
 - Etiquetas.
 - Facturación.
-- 9- Regiones
+</details>
 
----
+<details><summary> 9. Regiones
+</summary>
 
 Área geográfica con por lo menos un data center. Algunos servicios son exclusivos de ciertas regiones.
 
@@ -425,7 +425,7 @@ Utilizan permisos de control basado en roles (**RBAC - Roles Based Access Contro
 - No todas las regiones son compatibles con zonas de disponiblidad.
 - Esto puede implicar un costo.
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%207.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%207.png)
+![Images/Untitled%207.png](Images/Untitled%207.png)
 
 ### Pares de regiones
 
@@ -438,13 +438,11 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 - Daños en la red física.
 - Otros.
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%208.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%208.png)
+![Images/Untitled%208.png](Images/Untitled%208.png)
+</details>
 
----
-
-- 10- Laboratorio: crear un sitio en WordPress
-
----
+<details><summary> 10. Laboratorio: crear un sitio en WordPress
+</summary>
 
 # Labs
 
@@ -452,12 +450,11 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 [https://docs.google.com/document/d/1nT6lvqlRPhlPCy1a-Xknp-aPwBjm5gKHqk5QW2CLj6s/edit](https://docs.google.com/document/d/1nT6lvqlRPhlPCy1a-Xknp-aPwBjm5gKHqk5QW2CLj6s/edit)
 
+</details>
+## Servicios de Azure
 
-# Servicios de Azure
-
-- 11- Análisis y bases de datos
-
----
+<details><summary> 11. Análisis y bases de datos
+</summary>
 
 ### **Tipos de bases de datos:**
 
@@ -498,7 +495,7 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 - Transacciones entre bases de datos.
 - No cuenta con escalado automático.
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%209.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%209.png)
+![Images/Untitled%209.png](Images/Untitled%209.png)
 
 ### Servicios para motores específicos
 
@@ -541,9 +538,10 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 [Ejercicio: Creación de una base de datos SQL - Learn](https://docs.microsoft.com/es-es/learn/modules/azure-database-fundamentals/exercise-create-sql-database)
 
-- 12- Servicios de cómputo en la nube
+</details>
 
----
+<details><summary> 12. Servicios de cómputo en la nube
+</summary>
 
 ### Azure Virtual Machines
 
@@ -601,7 +599,7 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 - Se crean de forma visual o en JSON.
 - Cuenta con más de 200 conectores y bloques.
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2010.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2010.png)
+![Images/Untitled%2010.png](Images/Untitled%2010.png)
 
 ### Windows Virtual Desktop
 
@@ -621,9 +619,10 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 [Ejercicio: Conexión a una máquina virtual Windows mediante RDP - Learn](https://docs.microsoft.com/es-es/learn/modules/create-windows-virtual-machine-in-azure/5-exercise-connect-to-a-windows-vm-using-rdp)
 
-- 13- Almacenamiento
+</details>
 
----
+<details><summary> 13. Almacenamiento
+</summary>
 
 ### Azure Blob Storage
 
@@ -657,9 +656,10 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 [Ejercicio: creación de una cuenta de almacenamiento mediante Azure Portal - Learn](https://docs.microsoft.com/es-es/learn/modules/create-azure-storage-account/5-exercise-create-a-storage-account)
 
-- 14- Red
+</details>
 
----
+<details><summary> 14. Red
+</summary>
 
 ### Azure Virtual Network
 
@@ -681,7 +681,7 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 - Grupos de seguridad de red.
 - Aplicaciones virtuales de red.
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2011.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2011.png)
+![Images/Untitled%2011.png](Images/Untitled%2011.png)
 
 
 ### Azure VPN Gateway
@@ -698,9 +698,10 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 [Ejercicio: Creación de una instancia de Azure VPN Gateway - Learn](https://docs.microsoft.com/es-es/learn/modules/configure-network-for-azure-virtual-machines/5-exercise-create-azure-vpn-gateway)
 
-- 15- Inteligencia Artificial
+</details>
 
----
+<details><summary> 15. Inteligencia Artificial
+</summary>
 
 1. **Deep Learning:** usa redes neuronales para descubrir, aprender y crecer.
 2. **Machine learning:** utiliza datos existentes para entrenar modelos y pronosticar.
@@ -729,9 +730,10 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 [Ejercicio: análisis de imágenes con el servicio Computer Vision - Learn](https://docs.microsoft.com/es-es/learn/modules/analyze-images-computer-vision/3-analyze-images)
 
-- 16- DevOps
+</details>
 
----
+<details><summary> 16. DevOps
+</summary>
 
 # **Azure DevOps Services**
 
@@ -776,9 +778,10 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 [Ejercicio: Uso de Azure DevOps para personalizar y volver a configurar las pruebas de carga de aplicaciones web - Learn](https://docs.microsoft.com/es-es/learn/modules/load-test-web-app-azure-devops/6-use-azure-devops-to-customize-and-reconfigure-web-app-load-tests)
 
-- 17- Monitoreo y supervisión
+</details>
 
----
+<details><summary> 17. Monitoreo y supervisión
+</summary>
 
 ## Azure Advisor
 
@@ -794,7 +797,7 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 - Plataforma que recopila, analiza y muestra datos para tomar acciones basada en métricas del entorno local y Azure.
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2012.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2012.png)
+![Images/Untitled%2012.png](Images/Untitled%2012.png)
 
 ## Azure Service Health
 
@@ -816,9 +819,10 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 [Ejercicio: Configuración de la extensión Azure Diagnostics - Learn](https://docs.microsoft.com/es-es/learn/modules/monitor-azure-vm-using-diagnostic-data/6-exercise-configure-azure-diagnostic-extension)
 
-- 18- Admistración y Configuración de entorno
+</details>
 
----
+<details><summary> 18. Admistración y Configuración de entorno
+</summary>
 
 ### Azure Portal
 
@@ -847,9 +851,10 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 [Ejercicio: Incorporación de lógica a la aplicación de funciones - Learn](https://docs.microsoft.com/es-es/learn/modules/create-serverless-logic-with-azure-functions/5-add-logic-to-the-function-app?pivots=javascript)
 
-- 19- Serveless
+</details>
 
----
+<details><summary> 19. Serveless
+</summary>
 
 ## Azure Functions
 
@@ -877,7 +882,7 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 - Ideal par automatizar y organizar.
 - Integra aplicaciones, datos y sistemas.
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2013.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2013.png)
+![Images/Untitled%2013.png](Images/Untitled%2013.png)
 
 ## Labs
 
@@ -889,9 +894,10 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 [Ejercicio: Creación de la aplicación lógica de seguimiento de redes sociales - Learn](https://docs.microsoft.com/es-es/learn/modules/route-and-process-data-logic-apps/4-ex-create-social-media-tracker)
 
-- 20- IoT
+</details>
 
----
+<details><summary> 20. IoT
+</summary>
 
 > El Internet of Things (IoT), describe la red de objetos físicos (cosas), que llevan sensores integrados, software y otras tecnologías, con el fin de conectar e intercambiar datos con otros dispositivos y sistemas a través de Internet.
 > 
@@ -947,11 +953,12 @@ Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos
 
 [Ejercicio: Comprobación de que varios dispositivos se aprovisionan automáticamente y se asignan al centro - Learn](https://docs.microsoft.com/es-es/learn/modules/securely-provision-iot-devices-at-scale-with-device-provisioning-service/7-exercise-test-multiple-devices-provision-correctly)
 
-- 21- Seguridad
+</details>
 
----
+<details><summary>  21. Seguridad
+</summary>
 
-# Servicios de Seguridad
+## Servicios de Seguridad
 
 ## Azure Security Center
 
@@ -1029,16 +1036,15 @@ Un buen sistema de autenticación se compone de 3 elementos claves:
 
 [Ejercicio: Habilitación de Azure AD Multi-Factor Authentication - Learn](https://docs.microsoft.com/es-es/learn/modules/secure-aad-users-with-mfa/4-exercise-mfa)
 
+</details>
 
-# Protección de Datos
+## Protección de Datos
 
-- 22- Privacidad, cumplimiento y protección de datos
-
----
+<details><summary> 22. Privacidad, cumplimiento y protección de datos
+</summary>
 
 <aside>
 💡 Los datos de nuestros clientes NO son nuestros datos.
-
 </aside>
 
 # ¿Cumplimiento?
@@ -1074,14 +1080,12 @@ Cumplir con una ley, estándar, conjunto de directrices, normas o requerimiento
 
 [Confíe en su nube | Microsoft Azure](https://azure.microsoft.com/es-mx/overview/trusted-cloud/)
 
+</details>
 
----
+## Acuerdos de nivel de servicio (SLA)
 
-# Acuerdos de nivel de servicio (SLA)
-
-- 23- Administración de costos de servicio
-
----
+<details><summary> 23. Administración de costos de servicio
+</summary>
 
 ## Calculadora de costo total de propiedad (TOC)
 
@@ -1135,9 +1139,10 @@ Cumplir con una ley, estándar, conjunto de directrices, normas o requerimiento
 
 [Optimización de costos en la nube | Microsoft Azure](https://azure.microsoft.com/es-mx/overview/cost-optimization/)
 
-- 24- Acuerdos de nivel de servicio y ciclo de vida
+</details>
 
----
+<details><summary> 24. Acuerdos de nivel de servicio y ciclo de vida
+</summary>
 
 # Acuerdo de nivel de servicio
 
@@ -1158,9 +1163,9 @@ Cumplir con una ley, estándar, conjunto de directrices, normas o requerimiento
 - Hacerlas efectivas.
 - Disponibilidades.
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2014.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2014.png)
+![Images/Untitled%2014.png](Images/Untitled%2014.png)
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2015.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2015.png)
+![Images/Untitled%2015.png](Images/Untitled%2015.png)
 
 ### Elementos para aumentar SLA
 
@@ -1171,7 +1176,7 @@ Cumplir con una ley, estándar, conjunto de directrices, normas o requerimiento
 
 # Cálculo del SLA compuesto
 
-![Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2016.png](Introduccio%CC%81n%20a%20la%20Nube%20con%20Azure%20466d1da2d5bb4faab9201254b5c3cc1d/Untitled%2016.png)
+![Images/Untitled%2016.png](Images/Untitled%2016.png)
 
 Los SLA compuestos implican varios servicios que soportan una aplicación, cada uno con diferentes niveles de disponibilidad.
 
@@ -1204,14 +1209,11 @@ Los casos de uso comunes para Azure Policy incluyen la implementación de la gob
 
 [Contratos de nivel de servicio - Página principal | Microsoft Azure](https://azure.microsoft.com/es-mx/support/legal/sla/)
 
+</details>
+## Bonus
 
----
-
-# Bonus
-
-- AZ-900 Fundamentals
-
----
+<details><summary> AZ-900 Fundamentals
+</summary>
 
 ## Azure Cloud Computing
 
@@ -1241,7 +1243,11 @@ Los casos de uso comunes para Azure Policy incluyen la implementación de la gob
 
 ![https://static.platzi.com/media/user_upload/azure-900-cloud-fundamentals-7-database-services-1-0b82096e-9916-4c51-b8bb-90191ee7f16d.jpg](https://static.platzi.com/media/user_upload/azure-900-cloud-fundamentals-7-database-services-1-0b82096e-9916-4c51-b8bb-90191ee7f16d.jpg)
 
-- Glosario
+</details>
+
+
+<details><summary> Glosario
+</summary>
 
 ---
 
@@ -1424,3 +1430,4 @@ Los casos de uso comunes para Azure Policy incluyen la implementación de la gob
 149. **Azure Monitor:** Es un servicio que le permite recopilar y analizar datos de telemetría de su propias instalaciones y del entorno de la nube. Las fuentes para recopilar esos datos incluyen datos de aplicaciones como: datos de rendimiento y funciones, independientemente del lenguaje y el marco en el que esté escrito, datos sobre los sistemas operativos invitados, datos sobre los recursos de Azure que está aprovechando, datos de suscripción datos relacionados con la organización o la gestión de sus suscripciones a Azure.
 150. **Azure service health:** Es un conjunto de servicios que proporciona una visión general de la salud de los servicios Azure a través de las regiones.
 151. **Azure pricing calculator:** Es una herramienta gratuita basada en la web que le permite seleccionar los servicios de Azure modificar diferentes opciones y obtener estimaciones de precios.
+</details>
